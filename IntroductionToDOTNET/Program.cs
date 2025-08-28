@@ -1,6 +1,8 @@
 ﻿//#define STRING_OPERATIONS
 //#define DATA_TYPES
-#define FACTORIAL
+//#define FACTORIAL
+#define CALC
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -96,6 +98,20 @@ namespace IntroductionToDOTNET
                 f *= i;
             }
             Console.WriteLine($"{n}! = {f}");
+#endif
+#if CALC
+            Console.WriteLine("Калькулятор");
+            Console.Write("Введите выражение, значение которого требуется определить (например, 2,3+3,5): ");
+            string expression = Console.ReadLine();
+            char[] delimiters = { '+', '-', '*', '/' };
+            string[] operand = expression.Split(delimiters);
+            double a = Convert.ToDouble(operand[0]);
+            double b = Convert.ToDouble(operand[1]);
+            if (expression.Contains('+')) Console.WriteLine($"{a}+{b}={a + b}");
+            else if (expression.Contains('-')) Console.WriteLine($"{a}-{b}={a - b}");
+            else if (expression.Contains('*')) Console.WriteLine($"{a}*{b}={a * b}");
+            else if (expression.Contains('/') && (b != 0)) Console.WriteLine($"{a}/{b}={a / b}");
+            else if (expression.Contains('/') && (b == 0)) Console.WriteLine("Error: Dividing by zero.");
 #endif
         }
     }
