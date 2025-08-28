@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroductionToDOTNET", "IntroductionToDOTNET\IntroductionToDOTNET.csproj", "{C7AB2E4C-0420-4D9E-92B4-2B9513BD912E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{B429FFC9-2188-4E6C-8B8A-A8DF5D448481}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C7AB2E4C-0420-4D9E-92B4-2B9513BD912E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7AB2E4C-0420-4D9E-92B4-2B9513BD912E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7AB2E4C-0420-4D9E-92B4-2B9513BD912E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B429FFC9-2188-4E6C-8B8A-A8DF5D448481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B429FFC9-2188-4E6C-8B8A-A8DF5D448481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B429FFC9-2188-4E6C-8B8A-A8DF5D448481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B429FFC9-2188-4E6C-8B8A-A8DF5D448481}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
