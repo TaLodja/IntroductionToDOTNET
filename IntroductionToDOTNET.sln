@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroductionToDOTNET", "Int
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{B429FFC9-2188-4E6C-8B8A-A8DF5D448481}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{79FAE2DE-437C-4F2D-A3E0-46A58DA2BC6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B429FFC9-2188-4E6C-8B8A-A8DF5D448481}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B429FFC9-2188-4E6C-8B8A-A8DF5D448481}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B429FFC9-2188-4E6C-8B8A-A8DF5D448481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79FAE2DE-437C-4F2D-A3E0-46A58DA2BC6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79FAE2DE-437C-4F2D-A3E0-46A58DA2BC6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79FAE2DE-437C-4F2D-A3E0-46A58DA2BC6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79FAE2DE-437C-4F2D-A3E0-46A58DA2BC6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
